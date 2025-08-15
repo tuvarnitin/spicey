@@ -49,7 +49,7 @@ const PlaceOrder = () => {
       const { session_url } = response.data;
       window.location.replace(session_url);
     } else {
-      toast.error(response.data.message);
+      toast.error("Something went wrong..");
     }
   };
 
