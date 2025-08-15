@@ -26,7 +26,7 @@ const Orders = ({url}) => {
   }
   useEffect(()=>{
     fetchAllOrder() 
-  },[])
+  },[token])
   return (
     <div className='order add'>
       <h3>Order Page</h3>
