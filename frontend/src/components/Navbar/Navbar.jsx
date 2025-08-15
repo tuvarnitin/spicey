@@ -15,10 +15,10 @@ const Navbar = ({setShowLogin}) => {
   return (
     <div className='navbar'>
         <Link to='/'><svg className='logo' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 300">
-        <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" className="spicey-text">
-          Spicey 🌶️
-        </text>
-      </svg></Link>
+            <text x="56%" y="52%" dominantBaseline="middle" textAnchor="middle" className="spicey-text">
+              Spicey 🌶️
+            </text>
+          </svg></Link>
         <ul className="navbar-menu">
             <Link to='/' onClick={()=> setMenu('home')} className={menu == 'home' ? 'active':""}>home</Link>
             <a href='#explore-menu' onClick={()=> setMenu('menu')} className={menu == 'menu' ? 'active':""}>menu</a>

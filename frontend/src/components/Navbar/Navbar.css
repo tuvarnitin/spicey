@@ -1,9 +1,9 @@
- @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+ @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
     .spicey-text {
       font-family: 'Akaya Kanadaka', cursive;
-      font-size: 250px;
+      font-size: 260px;
       fill: #ff3b2e;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
     }
 
 .navbar {
@@ -14,7 +14,7 @@
 }
 
 .navbar .logo {
-  width: 150px;
+  width: 220px;
 }
 
 .navbar-menu {
