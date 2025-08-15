@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css'
 
 
 const App = () => {
-  const url = 'https://spicey.vercel.app'
+  const url = 'https://spicey-backend.vercel.app'
   return (
     <div>
       <ToastContainer />

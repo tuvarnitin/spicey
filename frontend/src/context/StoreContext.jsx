@@ -4,7 +4,7 @@ import { createContext, useEffect, useState } from "react";
 export const StoreContext = createContext(null);
 const StoreContextProvider = ({children}) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "https://spicey.vercel.app";
+  const url = "https://spicey-backend.vercel.app";
 
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);

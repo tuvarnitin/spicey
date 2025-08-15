@@ -12,8 +12,8 @@ const app = express();
 const port = 4000
 
 const allowedOrigins = [
-  'https://foods-by-spicey-mrxv.vercel.app',
-  'https://foods-by-spicey-211z.vercel.app'
+  'https://spicey-admin.vercel.app',
+  'https://spicey.vercel.app'
 ];
 
 app.use(cors({
