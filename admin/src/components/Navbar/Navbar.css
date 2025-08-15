@@ -1,0 +1,20 @@
+ @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+    .spicey-text {
+      font-family: 'Akaya Kanadaka', cursive;
+      font-size: 200px;
+      fill: #ff3b2e;
+      letter-spacing: 2px;
+    }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+
+}
+.navbar .logo{
+    width: max(10%,80px);
+}
+.navbar .profile{
+    width: 40px;
+}
