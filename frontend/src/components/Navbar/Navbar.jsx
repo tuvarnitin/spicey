@@ -16,7 +16,7 @@ const Navbar = ({setShowLogin}) => {
     <div className='navbar'>
         <Link to='/'><svg className='logo' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 300">
             <text x="56%" y="52%" dominantBaseline="middle" textAnchor="middle" className="spicey-text">
-              Spicey 🌶️
+              Spicey
             </text>
           </svg></Link>
         <ul className="navbar-menu">
