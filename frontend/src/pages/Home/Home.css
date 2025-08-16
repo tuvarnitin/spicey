@@ -1,0 +1,6 @@
+.cart-amount{
+    font-size:max(.7vw, 10px);
+    color: white;
+    font-weight: 400;
+    text-wrap: nowrap;
+}
