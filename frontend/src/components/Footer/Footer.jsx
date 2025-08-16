@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="footer-content-left">
                     <svg className='foot-logo' xmlns="http://www.w3.org/2000/svg" viewBox="135 -45 1300 300">
                         <text x="55%" y="44%" dominantBaseline="middle" textAnchor="middle" className="spicey-text foot-logo">
-                            Spicey.com
+                            Spicey
                         </text>
                     </svg>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente explicabo voluptas quo recusandae, veniam excepturi, doloremque officia blanditiis ab iure culpa voluptatibus modi voluptate assumenda eum odio tempora quis ipsam!</p>
