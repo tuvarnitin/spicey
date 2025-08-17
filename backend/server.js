@@ -11,26 +11,26 @@ import orderRoute from './routes/orderRoute.js';
 const app = express();
 const port = 4000
 
-const allowedOrigins = [
-  'https://spicey-admin.vercel.app',
-  'https://spicey.vercel.app'
-];
+// const allowedOrigins = [
+//   'https://spicey-admin.vercel.app',
+//   'https://spicey.vercel.app'
+// ];
 
-app.use(cors({
-  origin: function (origin, callback) {
-    // Allow requests with no origin (like mobile apps or curl requests)
-    if (!origin) {
-      return callback(null, true);
-    }
-    if (allowedOrigins.includes(origin)) {
-      return callback(null, true);
-    } else {
-      return callback(new Error('Not allowed by CORS'));
-    }
-  },
-  credentials: true // if you want to send cookies
-}));
-
+// app.use(cors({
+//   origin: function (origin, callback) {
+//     // Allow requests with no origin (like mobile apps or curl requests)
+//     if (!origin) {
+//       return callback(null, true);
+//     }
+//     if (allowedOrigins.includes(origin)) {
+//       return callback(null, true);
+//     } else {
+//       return callback(new Error('Not allowed by CORS'));
+//     }
+//   },
+//   credentials: true // if you want to send cookies
+// }));
+app.use(cors())
 //middleware
 app.use(express.json())
 
